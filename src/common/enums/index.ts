@@ -13,4 +13,15 @@ enum ToastTypeString {
 	Error = 'error',
 }
 
-export { IconHeaderType, ToastType, ToastTypeString };
+enum KeyLocalStorage {
+	auth = 'auth_user',
+}
+
+enum HeaderConfig {
+	Accept = 'application/json',
+	Authorization = 'Bearer',
+}
+enum Template {
+	Authorization = 'Bearer ${accessToken}',
+}
+export { IconHeaderType, ToastType, ToastTypeString, KeyLocalStorage, HeaderConfig, Template };

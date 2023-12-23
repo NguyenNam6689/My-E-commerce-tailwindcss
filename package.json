@@ -40,6 +40,7 @@
   "dependencies": {
     "@vitejs/plugin-react": "^4.2.0",
     "autoprefixer": "^10.4.16",
+    "axios": "^1.6.2",
     "clsx": "^2.0.0",
     "lint-staged": "^15.0.2",
     "postcss": "^8.4.32",
