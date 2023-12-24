@@ -13,6 +13,20 @@ enum ToastTypeString {
 	Error = 'error',
 }
 
+enum MetadataTitle {
+	Home = 'Home',
+	About = 'About-us',
+	Catalog = 'Catalog',
+	Contact = 'Contact-us',
+	Wishlist = 'Wishlist',
+	Cart = 'Cart',
+	Account = 'Account',
+	Login = 'Login',
+	Register = 'Sign-up',
+	Notfound = '404',
+	Error = '5xx',
+	Loading = '...Loading',
+}
 enum KeyLocalStorage {
 	auth = 'auth_user',
 }
@@ -24,4 +38,4 @@ enum HeaderConfig {
 enum Template {
 	Authorization = 'Bearer ${accessToken}',
 }
-export { IconHeaderType, ToastType, ToastTypeString, KeyLocalStorage, HeaderConfig, Template };
+export { IconHeaderType, ToastType, ToastTypeString, KeyLocalStorage, HeaderConfig, Template, MetadataTitle };
