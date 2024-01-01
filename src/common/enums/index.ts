@@ -4,6 +4,14 @@ enum IconHeaderType {
 	Account = 30,
 }
 
+enum IconType {
+	Wishlist = 10,
+	Cart = 20,
+	Account = 30,
+	Order = 40,
+	Guarantee = 50,
+	Support = 60,
+}
 enum ToastType {
 	Success = 0,
 	Error = 1,
@@ -38,4 +46,4 @@ enum HeaderConfig {
 enum Template {
 	Authorization = 'Bearer ${accessToken}',
 }
-export { IconHeaderType, ToastType, ToastTypeString, KeyLocalStorage, HeaderConfig, Template, MetadataTitle };
+export { IconHeaderType, ToastType, ToastTypeString, KeyLocalStorage, HeaderConfig, Template, MetadataTitle, IconType };
