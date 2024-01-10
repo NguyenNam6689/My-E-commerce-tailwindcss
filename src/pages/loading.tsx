@@ -4,7 +4,6 @@ import React from 'react';
 //* IMPORT
 
 // import { MetadataTitle } from '@/common/enums';
-import SectionLoadingPage from '@/components/loadings/SectionLoadingPage';
 
 const LoadingPage: React.FC = () => {
 	return (
@@ -12,7 +11,9 @@ const LoadingPage: React.FC = () => {
 			{/* 0. Metadata */}
 			{/* <Metadata title={MetadataTitle.Loading} /> */}
 			{/* 1. Section loading page */}
-			<SectionLoadingPage />
+			{/* 0. Metadata */}
+			{/* <Metadata title={MetadataTitle.Loading} /> */}
+			{/* 1. Section loading page */}
 		</React.Fragment>
 	);
 };
